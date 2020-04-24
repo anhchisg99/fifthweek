@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-var port = 3000;
+var port = process.env.PORT || 3001
 
 var testapi = {mail : "nhasachgiaosu@gmail.com",address: "47 le van dui", sdt:"0909090909" };
 
